@@ -10,7 +10,7 @@ $res=$dao->query($sql);
 if($res){
     $arr=array(
         'code'=>1,
-        'msg'=>'删除成功'
+        'msg'=>'恭喜你，删除成功'
     );
     echo json_encode($arr);
 }else{
